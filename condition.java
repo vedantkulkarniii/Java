@@ -3,15 +3,21 @@ public class condition {
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        if(x%2==0){
-            System.out.println("Even");
+        int button = sc.nextInt();
+
+        if(button ==1){
+            System.out.println("Hello");
+        }
+        else if(button ==2){
+            System.out.println("Namaste");
+        }
+        else if(button ==3){
+            System.out.println("Bonjour");
         }
         else{
-            System.out.println("odd");
+            System.out.println("Invalid button");
+
         }
 
-        
     }
-    
 }
