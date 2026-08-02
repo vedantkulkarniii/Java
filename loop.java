@@ -1,12 +1,11 @@
+import java.util.*;
 public class loop {
-    public static void main(String[] args){
-        int i = 0;
-        do{
-            System.out.println(i);
-            i = i+ 1;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-        } while(i < 11);
+        for(int i=1; i<11; i++){
+            System.out.println(i*n);
         }
-        
-    
+    }
 }
